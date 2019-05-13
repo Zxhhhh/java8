@@ -9,7 +9,6 @@ public class Dish {
 	
 	public Dish() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Dish(String name, boolean vegetarian, int calories, Type type) {
 		super();
