@@ -10,5 +10,14 @@ import java.io.IOException;
  */
 @FunctionalInterface
 public interface BufferedReaderProcessor {
+
 	String process(BufferedReader b) throws IOException;
+	
+	default public void test() {
+		System.out.println(12345);
+	}
+	
+	public static void test1() {
+		System.out.println(2345);
+	}
 }

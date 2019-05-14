@@ -27,9 +27,16 @@ public class LambdaTest {
 		new Student("zhaoliu",45));
 	}
 	
+	
 	//Lambda表达式
 	@Test
 	public void lambda1() {
+		
+		List<String> s1 = new ArrayList<>();
+		for(String str:s1) {
+			System.out.println(str);
+		}
+		
 		String result = parseName((String str)->str.length()>=5);
 		System.out.println(result);
 	}
